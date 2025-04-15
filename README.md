@@ -1,4 +1,4 @@
-![Screenshot 2025-04-16 003302](https://github.com/user-attachments/assets/4f195bbb-99b5-4282-a62a-e789d744a2f6)# Flutter AI Gemini Integration Note-Taking App
+# Flutter AI Gemini Integration Note-Taking App
 
 This is a simple Flutter-based note-taking app that integrates with **Google's Gemini** to help you generate and manage notes effectively. The app allows users to type in notes and interact with the Gemini model to assist with note-taking, idea generation, and other smart functionalities.
 
@@ -20,14 +20,17 @@ This is a simple Flutter-based note-taking app that integrates with **Google's G
 - **Flutter Quill**: A rich text editor for displaying and editing formatted notes.
 
 ## Images
-- **HomeScreen**:
 ![Screenshot 2025-04-16 003248](https://github.com/user-attachments/assets/dd9ca8d5-604e-42d5-9cf2-6afab6c4abb2)
-- **Create Note**:
+- **HomeScreen**
+
 ![Screenshot 2025-04-16 003302](https://github.com/user-attachments/assets/6670420b-893b-4a82-a0b7-2193dd9eec76)
-- **Chat History Screen**:
+- **Create Note**:
+
 ![Screenshot 2025-04-16 003321](https://github.com/user-attachments/assets/151a62eb-ee45-46ee-8388-a86169ec2b11)
-- **Chat Screen**:
+- **Chat History Screen**:
+- 
 ![Screenshot 2025-04-16 003330](https://github.com/user-attachments/assets/765f2b8f-4509-410e-8e80-a69b6c1824b5)
+- **Chat Screen**:
 
 
 
