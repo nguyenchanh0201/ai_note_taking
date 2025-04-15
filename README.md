@@ -21,13 +21,13 @@ This is a simple Flutter-based note-taking app that integrates with **Google's G
 
 ## Images
 - **HomeScreen**:
-  ![Screenshot 2025-04-16 003248](https://github.com/user-attachments/assets/dd9ca8d5-604e-42d5-9cf2-6afab6c4abb2)
+![Screenshot 2025-04-16 003248](https://github.com/user-attachments/assets/dd9ca8d5-604e-42d5-9cf2-6afab6c4abb2)
 - **Create Note**:
-  ![Screenshot 2025-04-16 003302](https://github.com/user-attachments/assets/6670420b-893b-4a82-a0b7-2193dd9eec76)
+![Screenshot 2025-04-16 003302](https://github.com/user-attachments/assets/6670420b-893b-4a82-a0b7-2193dd9eec76)
 - **Chat History Screen**:
-  ![Screenshot 2025-04-16 003321](https://github.com/user-attachments/assets/151a62eb-ee45-46ee-8388-a86169ec2b11)
+![Screenshot 2025-04-16 003321](https://github.com/user-attachments/assets/151a62eb-ee45-46ee-8388-a86169ec2b11)
 - **Chat Screen**:
-  ![Screenshot 2025-04-16 003330](https://github.com/user-attachments/assets/765f2b8f-4509-410e-8e80-a69b6c1824b5)
+![Screenshot 2025-04-16 003330](https://github.com/user-attachments/assets/765f2b8f-4509-410e-8e80-a69b6c1824b5)
 
 
 
