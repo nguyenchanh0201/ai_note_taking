@@ -39,7 +39,7 @@ class HistoryScreen extends StatelessWidget {
                  ),
               ),
               IconButton(
-                onPressed: () => _showChat(context), 
+                onPressed: () => _showChatScreen(context), 
                 icon: const Icon(Icons.add_circle_outline),
               ),
            ],
@@ -114,7 +114,7 @@ class HistoryScreen extends StatelessWidget {
                          trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                          onTap: () {
                            // Điều hướng tới màn hình Chat, truyền ID để load
-                            _showChatScreen(context, conversation.id);
+                            _showChatScreen(context, conversationId: conversation.id);
                          },
                        ),
                      ));
@@ -129,7 +129,7 @@ class HistoryScreen extends StatelessWidget {
 }
 
 
-void _showChatScreen(BuildContext context, int conversationId) {
+void _showChatScreen(BuildContext context, {int? conversationId}) {
   
 
 
@@ -157,28 +157,3 @@ void _showChatScreen(BuildContext context, int conversationId) {
   );
 }
 
-void _showChat(BuildContext context) {
-  showModalBottomSheet(
-                   context: context,
-                   isScrollControlled: true,
-                   backgroundColor: Colors.transparent,
-                   builder:
-                       (context) => DraggableScrollableSheet(
-                         initialChildSize: 0.8,
-                         minChildSize: 0.4,
-                         maxChildSize: 1.0,
-                         expand: false,
-                         builder:
-                             (context, scrollController) => Container(
-                               decoration: const BoxDecoration(
-                                 color: Colors.white,
-                                 borderRadius: BorderRadius.vertical(
-                                   top: Radius.circular(24),
-                                 ),
-                               ),
-                              
-                               child: ChatScreen(), 
-                             ),
-                       ),
-                 );
-}
